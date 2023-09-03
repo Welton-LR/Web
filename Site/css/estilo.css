@@ -11,4 +11,34 @@ body{
     position: relative;
     background-color: rgb(26, 1, 65);
 }
-.titulo{color: rgb(255, 255, 255);}
+.logo{
+    width: 50%;
+    justify-content: center;
+}
+.box-icons{
+   width: 33%;
+}
+.navegar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+a{
+    color: white;
+}
+#agendar{
+    width: 33%;
+    justify-self: right;
+    margin: 0%;
+}
+.painel{
+
+    background-image: url('/assets/barber.jpg');
+    background-position: center; /* Alinha a imagem ao centro do elemento */
+    background-size: cover; /* Redimensiona a imagem para cobrir todo o elemento */
+    
+    
+}
