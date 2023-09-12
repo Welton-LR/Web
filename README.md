@@ -1,2 +1,2 @@
 # Web
-Desenvolvimento web com HTML, CSS e JavaScript
+Este projeto autoral ainda está em andamento.

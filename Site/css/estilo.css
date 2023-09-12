@@ -9,39 +9,35 @@ body{
     width: 100%;
     height: 100vh;
     position: relative;
-    background-color:#010b42
+    background-color:#000000
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    background-color: rgb(12, 12, 12);
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 5px;
+    padding: 10px;
+    
+}
+.painel{
+    
+    display: flex;
+    background-color: rgb(37, 23, 23);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/Site/assets/barber2.png);
+    background-position: center;
+    background-size: cover; /* A imagem irá cobrir todo o elemento */
 }
 .logo{
-    width: 20%;
-    justify-content: center;
-    align-items: center;
-}
-.box-icons{
-    width: 33%;
-    margin: 0%;
-    padding: 0;
-}
-.navegar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 2%;
-    padding-right: 2%;
-
+    width: 30%;
+    
 }
 a{
     color: white;
-}
-.agendar{
-    width: 33%;
-    justify-self: right;
-    margin: 0%;
-}
-.painel{
-
-    background-color: #041259;
-    background-position: center; /* Alinha a imagem ao centro do elemento */
-    background-size: cover; /* Redimensiona a imagem para cobrir todo o elemento */
-    
     
 }
