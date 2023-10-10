@@ -50,6 +50,7 @@ body{
 a{
     text-decoration: none; /* Remove a linha padrão do link */
     color: #ffffff; /* Define a cor do link */
+    
 }
 .link{
     transform: scale(1); /* 100% */
@@ -97,11 +98,15 @@ a{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 3%;
+    padding-left: 20px;
+    padding-right: 20px;
     
 }
-.texto{
-    
-}
+
+
 h1{
   color: #4c2b21;  
+}
+.texto{
+    font-size: 116%;
 }
